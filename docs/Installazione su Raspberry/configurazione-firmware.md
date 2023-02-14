@@ -31,19 +31,11 @@ Se tutto è andato correttamente e il Raspberry è collegato alla nostra rete LA
 <img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image3.png" height="350" alt="Fluidd Home">
 </p>
 
-Tramite l’interfaccia web è possibile editare il file printer.cfg. Cliccare in alto a destra sulla voce **PRINTER**
+Finchè non viene configurata la stampante, il sistema segnalerà errori.
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image28.png" height="50" alt="Fluidd Home Detail">
-</p>
+Tramite l’interfaccia web è possibile editare il file printer.cfg. Sulla barra laterale cercare l'icona con due graffe.
 
-si aprirà un menù come questo:
-
-<p align="center">
-<img src="https://raw.githubusercontent.com/sugar012/klipperITA/main/images/image29.png" height="350" alt="Fluidd Config">
-</p>
-
-Cliccare sul file printer.cfg, comparirà un menù a tendina, cliccare su edit.
+Cliccare sul file printer.cfg
 
 Si aprirà adesso un editor di testo, copiare e sostituire quindi il contenuto del file config scaricato precedentemente all’interno dell’editor dell'interfaccia,  all'interno del file alla voce [mcu] incollare la stringa precedentemente trovata in questo modo:
 
